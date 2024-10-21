@@ -1,0 +1,15 @@
+#products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.product {
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.product.non-active {
+    display: none;
+}
